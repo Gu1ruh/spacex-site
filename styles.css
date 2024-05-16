@@ -1,0 +1,178 @@
+html{
+    border: none;
+    margin: 0;
+}
+
+body{
+    background: none;
+    color: #000000;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: normal;
+    color: inherit;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    width: 100%;
+    margin: 0 25px 0 25px;
+}
+
+.header-wrapper{
+    margin: 1px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-wrapper{
+    width: 70px;
+    height: auto;
+}
+
+.logo img{
+    width: 100%; height: auto;
+}
+
+.navigation{
+    width: 50%;
+    height: auto;
+}
+
+.navigation ul {
+    display: block;
+}
+
+.navigation ul li{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.menu button{
+    width: 50px;
+    height: 25px;
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.main-body{
+    position: relative;
+    height: 100vh;
+    /* background-image: url(space1.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1{
+    background-image: url(space1.jpg);
+}
+
+.section2{
+    background-image: url(space2.jpeg);
+}
+
+.section3{
+    background-image: url(spacex3.jpeg);
+}
+
+.section4{
+    background-image: url(spacex4.jpeg);
+}
+
+.section5{
+    background-image: url(spacex5.jpeg);
+}
+
+.title {
+    width: 40%;
+    /* height: 150px; */
+    position: absolute;
+    bottom: 90px;
+    margin-left: 15px;
+}
+
+.sub-title{
+    font-family: cursive, sans-serif;
+    line-height: 2.5;
+    font-size: 22px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.title h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 5px 0 5px 0;
+}
+
+.learn-more{
+    width: 130px;
+    height: 50px;
+    border: 2px solid #007bff;
+    background-color: transparent; 
+    color: #fff;
+}
+
+.learn-more:hover{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #000;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 33%;
+}
+
+.copyright{
+    color: #fff;
+}
+
+.copyright h4, .privacy h4, .suppliers h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 200;
+
+}

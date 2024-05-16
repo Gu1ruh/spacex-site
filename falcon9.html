@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCON 9</title>
+    <link rel="stylesheet" href="falcon9.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- <script src="scripts.js"></script> -->
+    <style>   .title h1 {
+        /* ends */color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 1.5;
+            text-transform: uppercase;
+            margin: 5px 0 5px 0;
+        }
+        .title p{
+            color:white;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo">
+                <div class="logo-wrapper">
+                    <a href="index.html"><img src="logos.png" alt="logo"></a>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <ul>
+                    <li> <a href="falcon9.html"> Falcon 9 </a></li>
+                    <li id="falcon heavy">Falcon Heavy</li>
+                    <li>Dragon</li>
+                    <li>Starship</li>
+                    <li>Space Flight</li>
+                    <li>Ride Share</li>
+                    <li>Star shield</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="menu">
+                <button>Menu</button>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+        <div class="main-body falcon-section1">
+            <div class="title inner-center">
+                <h1>FALCON 9</h1>
+                <p>FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT</p>
+                <div class="falco9-button-container">
+                    <button class="learn-more">
+                        LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main-body section2">
+            <div class="numbers">
+                
+                <h3 class="sub-title">RECENT LAUNC</h3>
+                <h1>STARLINK MISSION</h1>
+                <div class="button-container">
+                    <button class="learn-more">
+                        WATCH
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-body section3">
+            <div class="title">
+                <h1>STARLINK MISSION</h1>
+                <div class="button-container">
+                    <button class="learn-more">
+                        REWATCH
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- section 4 - slides -->
+        <div class="main-body falcon-section4">
+                                
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="slide-content">
+                    <h3 class="slight-heading">Falcon 9</h3>
+                    <h1 class="bold-heading">OVERVIEW</h1>
+                    <img src="starship.jpeg" alt="starship">
+                    <table>
+                        <tbody>
+                            <thead></thead>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                            <tr>
+                                <td>HEIGHT</td>
+                                <td>70M / 229.6FT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content">  
+                        <div class="content-container">   
+                        <h1>FALCON 9</h1>             
+                        <h2>FIRST STAGE</h2>            
+                        <p>Falcon 9'sfirst stage incorporates nine Mertin 
+                            engines and aluminium-lithium
+                            alloy tanks containing liquid oxygen and 
+                            rocket-grade kerosene (RP-1)propellant.
+                            Falcon 9 generates more than 1.7 million pounds 
+                            of thrust at sea level.
+                </p>
+            </div> 
+         <img src="falconheavy.jpeg" alt="falconheavy image">
+
+             </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-content">
+                <h1>Slide 3</h1>
+                <img src="falcon9launch.jpeg" alt="Falcon 9 launch">
+                <p>This is the content of Slide 3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="slide-content">
+                <h1>Slide 4</h1>
+                <img src="dragon.jpeg" alt="dragon">
+                <p>This is the content of Slide 4. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="button-container">
+                <button onclick="prevSlide()" class="button-prev">Previous</button>
+                <button onclick="nextSlide()" class="button-next">Next</button>
+            </div>
+           
+        </div>
+        <div class="main-body section5">
+            <div class="title">
+                <h1>STARSHIPS THIRD FLIGHT TEST</h1>
+                <div class="button-container">
+                    <button class="learn-more">
+                        LEARN MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+</main>
+
+
+<script>
+    
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+
+// Function to show the next slide
+function nextSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+
+// Function to show the previous slide
+function prevSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+</script>
+</body>
+</html>

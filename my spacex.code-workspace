@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "my spacex",
+			"path": "../../my spacex"
+		},
+		{
+			"name": "spacexSample",
+			"path": "."
+		},
+		{
+			"name": "myplay",
+			"path": "../../myplay"
+		},
+		{
+			"name": "myplay2",
+			"path": "../../myplay2"
+		}
+	]
+}
